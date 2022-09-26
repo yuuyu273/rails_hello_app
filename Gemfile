@@ -28,10 +28,10 @@ group :test do
   gem 'webdrivers',         '4.1.2'
 end
 
-group :development, :test do
-  gem 'sqlite3', '1.4.2'
-  gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+group :production do
+  gem 'pg', '1.1.4'
 end
+
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
