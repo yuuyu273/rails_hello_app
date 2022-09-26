@@ -9,6 +9,9 @@ gem 'turbolinks', '5.2.0'
 gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.10.3', require: false
 gem 'psych', '~> 3.1'
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
